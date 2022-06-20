@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(253, 253, 253), rgb(0, 195, 255)); 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#bdcaca;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.content-plans {
+  height: 60vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+    list-style-image: url(file:///C:/Users/Windows/Downloads/check-solid.svg);
+}
+
+.plans-title {
+       font-weight: bold;
+       color:#ffffff;
+       font-size: 16px;
+}
+
+.first-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#fafafa;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);  
+}
+
+.first-plan-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#ffff00;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: -41px;
+}
+
+.benefits-basic {
+    text-align: left;
+    margin-right: 15px;
+}
+
+.btn-first {
+    display: flex;
+    justify-content:center;
+}
+
+#btn-one {
+    width: 10vw;
+    padding:5px;
+    border-radius:9px;
+    border: none;
+    background:#ffff00;
+    color:#ffffff;
+}
+
+
+.second-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);   
+}
+
+.second-plan-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#ff0000;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: -41px;
+}
+
+.benefits-premium {
+    text-align: left;
+    margin-right: 15px;
+}
+
+.btn-second {
+    display: flex;
+    justify-content:center;
+}
+
+#btn-two {
+    width: 10vw;
+    padding:5px;
+    border-radius:9px;
+    border: none;
+    background:#ff0000;
+    color:#ffffff;
+    
+}
+
+.third-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background:#ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+}
+
+.third-plan-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#0004ff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: -43px;
+}
+
+.benefits-master {
+    text-align: left;
+    margin-right: 10px;
+}
+
+.btn-third {
+    display: flex;
+    justify-content:center;
+}
+
+#btn-three {
+    width: 10vw;
+    padding:5px;
+    border-radius:9px;
+    border: none;
+    background:#0004ff;
+    color:#ffffff;
+}
+
